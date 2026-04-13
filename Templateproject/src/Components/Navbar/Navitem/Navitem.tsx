@@ -3,7 +3,11 @@
 const Navitem = ( route:string, label:string) => {
     return (
         <>
-        <a href={route}>{label}</a>
+            <li>
+            <a href={route} className="Navitem">
+                {label}
+            </a>
+        </li>
         </>
     )
 

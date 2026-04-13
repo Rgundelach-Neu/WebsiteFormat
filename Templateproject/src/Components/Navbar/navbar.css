@@ -1,0 +1,13 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 100rem;
+    background-color: #333;
+    color: white;
+}
+.Navbar-Left {
+    align-items: left;
+}
+.Navbar-Left {
+    align-items: right;
+}
