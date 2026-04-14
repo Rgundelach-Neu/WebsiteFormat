@@ -9,6 +9,7 @@ const Navbar = () => {
                 <ul>
                     <h1>{AppName}</h1>
                     {Navitem("/", "home")}
+                    {Navitem("/login", "login")}
                 </ul>
             </div>
         </>
