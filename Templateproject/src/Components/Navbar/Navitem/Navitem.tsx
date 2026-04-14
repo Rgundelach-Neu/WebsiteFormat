@@ -1,12 +1,12 @@
-
+import { BrowserRouter, NavLink } from "react-router-dom"
 
 const Navitem = ( route:string, label:string) => {
     return (
         <>
             <li>
-            <a href={route} className="Navitem">
+            <NavLink to={route} className="Navitem">
                 {label}
-            </a>
+            </NavLink>
         </li>
         </>
     )
