@@ -9,7 +9,7 @@ function App() {
 
   const routes = useRoutes([
     {path: "/", element: <Home/> },
-    {path: "/login", element: <Login />}
+    {path: "/login", element: <Login />,},
   ])
 
   return (
