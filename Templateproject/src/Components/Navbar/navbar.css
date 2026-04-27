@@ -9,6 +9,7 @@
 }
 .websiteHeader {
     color: var(--AccentColor);
+    margin-left: 10%;
 }
 .Navbar-Left {
     justify-content: left;
