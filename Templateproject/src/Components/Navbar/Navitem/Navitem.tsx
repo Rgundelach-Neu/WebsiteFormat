@@ -1,4 +1,5 @@
 import {NavLink } from "react-router-dom"
+import './Navitem.css';
 
 const Navitem = ( route:string, label:string) => {
     return (

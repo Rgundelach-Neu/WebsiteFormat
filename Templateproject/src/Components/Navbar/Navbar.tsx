@@ -1,17 +1,24 @@
 import Navitem from "./Navitem/Navitem";
+import './Navbar.css';
 
 const Navbar = () => {
     const AppName = import.meta.env.VITE_APP_NAME;
 
     return (
-        <>
-            <div className="Navbar">
-                <ul>
-                    <h1>{AppName}</h1>
-                    {Navitem("/", "home")}
-                    {Navitem("/login", "login")}
+        <>    
+        <span>                
+            <div>
+                <ul className="Navbar">
+                    <p className="websiteHeader">{AppName}</p>
+                    <div className="Navbar-Left">
+                        {Navitem("/", "home")}
+                    </div>
+                    <div className="Navbar-Right">
+                        {Navitem("/login", "login")}
+                    </div>
                 </ul>
             </div>
+        </span>
         </>
     );
 }

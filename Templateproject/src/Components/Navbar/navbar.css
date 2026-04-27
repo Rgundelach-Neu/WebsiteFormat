@@ -1,13 +1,19 @@
 .Navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 100rem;
-    background-color: #333;
-    color: white;
-}
-.Navbar-Left {
     align-items: left;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--SecondaryColor);
+    width: 100%;
+}
+.websiteHeader {
+    color: var(--AccentColor);
 }
 .Navbar-Left {
-    align-items: right;
+    justify-content: left;
 }
+.Navbar-Right {
+    justify-content: right;
+}
+
