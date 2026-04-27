@@ -8,14 +8,10 @@ const Navbar = () => {
         <>    
         <span>                
             <div>
-                <ul className="Navbar">
+                <ul className="Navbar Navbar-Left">
                     <p className="websiteHeader">{AppName}</p>
-                    <div className="Navbar-Left">
-                        {Navitem("/", "home")}
-                    </div>
-                    <div className="Navbar-Right">
-                        {Navitem("/login", "login")}
-                    </div>
+                        {Navitem("/", "home","Left")}
+                        {Navitem("/login", "login","Right")}
                 </ul>
             </div>
         </span>

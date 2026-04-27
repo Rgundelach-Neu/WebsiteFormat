@@ -22,3 +22,11 @@
     .Navitem:active {
         background-color: aliceblue;
     }
+    .Left {
+        margin-right: auto ;
+        padding-left: 10%;
+    }
+    .Right {
+        margin-left: auto;
+        padding-right: 10%;
+    }
